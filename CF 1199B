@@ -1,0 +1,10 @@
+#include<bits/stdc++.h>
+using namespace std ;
+int main(){
+   double H, L, A ;
+    cin >> H >> L ;
+    A = (L * L - H * H) / (2 * H);
+
+    cout <<fixed<<setprecision(13)<< A <<endl;
+    return 0 ;
+}
